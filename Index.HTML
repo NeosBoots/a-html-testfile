@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SL Inloggning</title>
+    <style>
+        /* Background settings */
+        body {
+            background-image: url('SLSL55.png'); /* SL train background */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Form container */
+        .form-container {
+            background: rgba(0, 0, 0, 0.7); /* Semi-transparent black */
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            margin: auto;
+            margin-top: 50px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+        }
+
+        /* Input fields */
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+            border: none;
+        }
+
+        /* Labels */
+        label {
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        /* Submit button */
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: blue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: 0.3s;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: darkred;
+        }
+
+        /* Google login button */
+        .google-login {
+            background-color: white;
+            color: black;
+            font-weight: bold;
+            border: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 10px;
+        }
+
+        .google-login img {
+            width: 20px;
+            height: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="form-container">
+        <h2>Logga in med Google!</h2>
+        <form>
+            <label for="email">E-post:</label>
+            <input type="email" id="email" placeholder="Ange din e-post">
+
+            <label for="password">Lösenord:</label>
+            <input type="password" id="password" placeholder="Ange ditt lösenord">
+
+
+            <button type="submit">Logga in</button>
+        </form>
+
+</body>
+</html>
